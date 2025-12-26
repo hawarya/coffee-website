@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Emilys Candy"
+}
+.contact-container{
+  background-image: url("https://i.pinimg.com/1200x/71/ef/9c/71ef9cb423b41856d232d1e3dde8c04d.jpg");
+  width: 100%;
+  height: 100vh; 
+   background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    
+    
+      
+}
+.contact-container h1{
+  color:rgb(201, 186, 186);
+  padding:10px;
+    margin-left: 10%;
+  background-color: #3b1b07;
+  display: inline-block;
+border: 1px solid rgb(8, 8, 8);
+border-radius: 5px;
+}
+.form{
+  display:flex;
+  flex-direction:column;
+ justify-content: center;
+  align-items: center;
+  gap:10px;
+   width: 500px;
+   border: 2px solid #3b1b07; 
+  padding: 50px;
+  border-radius: 10px;
+  margin: 50px;
+  background: #bc7430;
+  box-shadow: 0 4px 12px rgba(152, 98, 68, 0.3);
+    transition: all 0.3s ease;
+}
+.input{
+  width:400px;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(143, 141, 140, 0.3);
+  align-items: center;
+  justify-content: center;
+  padding:20px;
+  font-size: larger;
+  margin-bottom: 20px;
+  border-color: aliceblue;
+  border: 2px solid black;
+ 
+}
+.btn{
+  width:200px;
+  height: 50px;
+ padding:20px;
+ margin-right: 190px;
+ border-radius: 5px;
+ margin-top:20px;
+  border: 2px solid black;
+  font-size: 20px;
+display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+.btn:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.label{
+  color:rgb(7, 7, 20);
+  text-align: right;
+  font-size: 25px;
+  
+}
+.home-container{
+  background-image: url("https://i.pinimg.com/1200x/50/62/76/50627696ad5ced00a2446c3516b8b769.jpg");
+  width: 100%;
+  height: 100vh; 
+   background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+.logo{
+padding :20px;
+font-size: 50px;
+color: rgb(0, 0, 0);
+}
+.home-text{
+  padding:20px;
+  margin-top: 100px;
+  width:750px;
+  color: rgb(0, 2, 2);
+
+}
+.home-text h1{
+ margin-bottom: 20px;
+}
+.home-btn{
+  width:120px;
+  height: 40px;
+  margin:20px;
+  font-size: 15px;
+  font-weight:bolder;
+  border-color: aliceblue;
+  margin-bottom: 50px;
+   transition: all 0.3s ease;
+    
+}
+.home-btn:hover{
+  transition: transform 0.2s ,box-shadow 0.2s;
+  transform: translateY(-2px);
+}
+#explore{
+  background-color: #271001;
+  color:aliceblue;
+  font-weight: bold;
+}
+.metrics{
+display: flex;
+flex-direction: row;
+padding: 10px;
+width:150px;
+gap:100px;
+margin:20px;
+font-size: 7px;
+}
+.metrics span{
+  font-size: 45px;
+}
+.navbar{
+  display: flex;
+  justify-content: flex-end;   
+  padding: 10px 20px; 
+ 
+}
+.nav{
+ display: flex;
+  gap: 100px;
+  border: 2px solid white;    
+  padding: 4px 200px;   
+  border-radius: 5px;
+  background-color: transparent;
+
+}
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  gap:60px;
+  padding:20px;
+}
+.product-card {
+  text-decoration: none;
+  color: black;
+
+  flex: 1 1 calc(25% - 20px); 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  border:2px;
+ 
+  box-shadow: 0 4px 8px rgba(152, 98, 68, 0.3);
+}
+.product-card img {
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 6px;
+ margin-left: 40px;
+   padding:10px;
+  
+   
+   
+ 
+}
+
+.details{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.product-card button{
+  padding:10px ;
+  margin-left:110px ;
+  width: 200px;
+  background-color: #3b1b07;
+  color: white;
+  cursor: grab;
+}
+.product-card button:hover{
+  transform: translateY(-2px);
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.prod-h1{
+
+color: #873b0b;
+margin-left: 700px;
+margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+.product-details {
+  max-width: 900px;
+  margin: 40px auto;
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.product-details img {
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.product-info h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.product-info p {
+  font-size: 25px;
+  color: #2c2929;
+}
+
+
+.product-details button {
+  width: fit-content;
+  padding: 10px 20px;
+   background-color: #3b1b07;
+  color: white;
+  border: none;
+  cursor: grab;
+}
+
+.product-details button:hover {
+   transition: transform 0.2s ease-in ,box-shadow 0.2s;
+  transform: translateY(-2px);
+   
+}
